@@ -1,0 +1,361 @@
+
+/*INDEX.HTML*/
+.fondoBody {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*asegura ocupar toda la pagina*/
+}
+
+.fondoHeader {
+    background-color: #af0606;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* Ajusta la distribución entre logo y menú */
+    align-items: center;
+    /* Centra verticalmente el contenido del header */
+    padding: 10px;
+    /* Añade un padding para evitar que se peguen al borde */
+    
+    
+}
+.fondoFooter {
+    background-color: #af0606;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    background-position: top right;
+    width: 100px;
+    border-radius: 500px;
+}
+
+.imagenInicio {
+    background-image: url(../SB_ON_THE_BEAT/img/fondoinicio.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.lista {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 20px 0;
+    /* Agrega márgenes para un mejor espaciado */
+    display: inline-block;
+    display: flex;
+    /* Usa flex para alinear los items en línea */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* Quita los puntos de la lista */
+    justify-content: center;
+    /* Alinea el contenido en el centro */
+}
+
+.titulo {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    /* Añade padding para que los enlaces se vean como botones */
+    background-color: #af0606;
+    border-radius: 5px;
+}
+
+li {
+    margin: 0 15px;
+    /* Añade margen entre los elementos */
+}
+
+.redes {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    /* Añade padding para que los enlaces se vean como botones */
+    background-color: #af0606;
+    border-radius: 5px;
+
+
+}
+
+
+.exp {
+    display: block;
+    padding: 3px 3px;
+    margin: 10px 875px;
+    text-align: center ;
+    text-decoration: none;
+    background-color:  #af0606;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+/* Contenedor general de los beats */
+.beats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #000;
+}
+
+/* Estilo de cada beat */
+.beat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #1a1a1a;
+    border: 1px solid #af0606;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+/* Imagen dentro del beat */
+.beat img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Botones dentro del beat */
+.beat button {
+    padding: 8px 16px;
+    background-color: #af0606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+/* Audio dentro del beat */
+.beat audio {
+    margin: 10px 0;
+}
+
+
+
+/* PRODDUCTOS.HTML */
+
+.btn {
+    background-color: #000000;
+    color: white;
+    border: #af0606;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px
+}
+
+.categoria {
+    text-align: center;
+    ;
+}
+
+.categoria img {
+    width: 220px;
+    height: 220px;
+    background-color: #e3e3e3;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+    
+}
+
+h2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+h4,
+p {
+    color: rgb(204, 173, 0);
+    margin: 5px 0;
+
+
+}
+
+
+
+/* LICNECIAS.HMTL */
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    background-color: #af0606;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: #563acf;
+}
+
+/* Sección de Licencias */
+.licencias {
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.licencia {
+    background-color: #f8f8ff;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 10px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.licencia h3 {
+    font-size: 16px;
+    color: #4a4aef;
+}
+
+.licencia p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Imagen */
+.imagen {
+    width: 40%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.img-placeholder {
+    width: 100%;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Términos */
+
+
+
+.terminos h4 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #563acf;
+    text-transform: uppercase;
+}
+
+.terminos p {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #dcdcdc;
+}
+
+/*SOBRE MI*/
+#sobre-mi {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: black;
+    /* Fondo gris claro */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+    /* Añadir espacio entre las columnas */
+}
+
+.columna {
+    width: 45%;
+    /* Ajustar el ancho para que quepan dos columnas */
+}
+
+.columna h5 {
+    color: #4A4CD4;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4A4CD4;
+}
+
+.columna p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e0e0e0;
+    
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+    display: block;
+    /* Asegura que la imagen sea tratada como un bloque */
+    margin-left: 1;
+    /* Margen izquierdo automático */
+    margin-right: 1;
+    /* Margen derecho automático */
+
+    height: auto;
+    /* Ajusta la altura proporcionalmente */
+
+
+}
