@@ -9,7 +9,7 @@
 }
 
 .fondoHeader {
-    background-color: #af0606;
+    background-color: rgb(23, 23, 139);
     font-size: 50px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     
 }
 .fondoFooter {
-    background-color: #af0606;
+    background-color: rgb(23, 23, 139);
     color: white;
     text-align: center;
     padding: 20px;
@@ -70,7 +70,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px 20px;
     /* Añade padding para que los enlaces se vean como botones */
-    background-color: #af0606;
+    /* background-color: #af0606; */
     border-radius: 5px;
 }
 
@@ -86,7 +86,7 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px 20px;
     /* Añade padding para que los enlaces se vean como botones */
-    background-color: #af0606;
+    /* background-color: #af0606; */
     border-radius: 5px;
 
 
@@ -99,7 +99,7 @@ li {
     margin: 10px 875px;
     text-align: center ;
     text-decoration: none;
-    background-color:  #af0606;
+    background-color: #af0606;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -127,7 +127,7 @@ h1 {
     align-items: center;
     padding: 15px;
     background-color: #1a1a1a;
-    border: 1px solid #af0606;
+    border: 1px solid  rgb(23, 23, 139);;
     border-radius: 8px;
     color: white;
     text-align: center;
@@ -358,4 +358,8 @@ p {
     /* Ajusta la altura proporcionalmente */
 
 
+}
+.youtube{
+    color: white;
+    background-color: #e3e3e3;
 }
