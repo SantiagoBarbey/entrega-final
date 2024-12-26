@@ -45,8 +45,6 @@
 .lista {
   color: white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  text-transform: uppercase;
   margin: 20px 0;
   /* Agrega márgenes para un mejor espaciado */
   display: inline-block;
@@ -64,12 +62,13 @@
   text-decoration: none;
   text-align: center;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins',sans-serif;
   padding: 10px 20px;
   /* Añade padding para que los enlaces se vean como botones */
   /* background-color: #af0606; */
   border-radius: 5px;
 }
+
 
 li {
   margin: 0 15px;
